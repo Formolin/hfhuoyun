@@ -1,0 +1,417 @@
+@fontcolor:#d53a4a;
+
+//头部开始
+
+.container {
+  width: 1194px;
+  height: 110px;
+  //background-color: yellow;
+  padding-right: 0;
+  padding-left: 0;
+  .logo {
+    width: 403px;
+    height: 53px;
+    float: left;
+    padding-top: 30px;
+  }
+  .top-r {
+    padding-top: 30px;
+    float: right;
+    width: 770px;
+    height: 110px;
+    //background-color: pink;
+    .tt {
+      width: 770px;
+      height: 20px;
+      float: right;
+      //background-color: blue;
+      padding-left: 533px;
+      a {
+        float: left;
+        font-family: Tahoma, "microsoft yahei";
+        font-size: 12px;
+        font-weight: normal;
+        font-variant: normal;
+        margin-right: 15px;
+        line-height: 22px;
+        color: #8a8a8a;
+        &:hover {
+          color: #d53a4a;
+        }
+      }
+      p {
+        float: left;
+        //width: 130px;
+        //height: 20px;
+        padding-left: 18px;
+        color: #d53a4a;
+        font-family: "microsoft yahei";
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: bold;
+        background: url(../image/phone.jpg) no-repeat left;
+      }
+
+    }
+    .nav {
+      float: left;
+      padding-left: 30px;
+
+      color: #333;
+      padding-top: 10px;
+      .m {
+        float: left;
+        width: 90px;
+        height: 33px;
+        line-height: 33px;
+        text-align: center;
+        z-index: 1001;
+          .uls {
+            border:1px solid #E6E4E3;
+            border-top: 0;
+            display: none;
+            background-color: white;
+            li {
+              width: 80px;
+              height: 43px;
+              line-height: 43px;
+              //background-color: pink;
+              border-bottom: 1px solid #E6E4E3;
+              margin:0 auto;
+              a {
+                font-size: 12px;
+                color: #666666;
+                &:hover {
+                  text-decoration: none;
+                  color: #d53a4a;
+                }
+              }
+            }
+          }
+        .ma {
+          color: #484848;
+          font-weight: bold;
+          font-size: 16px;
+          font-family: Tahoma, microsoft yahei;
+          //line-height: 33px;
+          height: 33px;
+          padding:0 0;
+          &:hover {
+            text-decoration: none;
+            border-bottom: 3px solid #d53a4a;
+
+          }
+        }
+      }
+
+    }
+    .navbar-collapse {
+      padding-left:0;
+    }
+    .navbar-collapse {
+      padding-right: 0;
+    }
+    .container-fluid {
+      padding:0 0;
+    }
+    .active {
+      border-bottom: 3px solid #d53a4a;
+    }
+  }
+
+}
+//头部结束
+
+//slider
+#slider {
+  .item {
+    height: 477px;
+  }
+}
+
+//content
+#content {
+  height: 290px;
+  padding-top: 50px;
+  .col-md-6 {
+    width: 510px;
+    height: 250px;
+    padding:0 0;
+    .up {
+      width: 510px;
+      height: 50px;
+      line-height: 50px;
+      .new {
+        float: left;
+
+      }
+      .more {
+        float: right;
+      }
+    }
+    .down {
+      width: 510px;
+      height: 200px;
+      .l {
+        width: 230px;
+        height: 187px;
+        float: left;
+        position: relative;
+        //overflow: hidden;
+        .big {
+          .main {
+            float: left;
+            display: none;
+
+          }
+          .select {
+            display: block;
+          }
+        }
+        .cor {
+          position: absolute;
+          width: 60px;
+          height: 6px;
+          //background-color: red;
+          bottom: 2px;
+          left:50%;
+          margin-left: -30px;
+          li {
+            width: 25px;
+            height: 6px;
+            background-color: #E6E4E3;
+            margin-right: 5px;
+            float: left;
+            cursor: pointer;
+          }
+          .current {
+            background-color: #d53a4a;
+          }
+        }
+
+      }
+
+      .r {
+        width: 270px;
+        height: 187px;
+        //background-color: green;
+        float: right;
+        ul {
+          .hot {
+            width: 280px;
+            height: 42px;
+            padding-left: 10px;
+            border-bottom-width: 1px;
+            border-bottom-style: dashed;
+            border-bottom-color: #cacaca;
+            background: url(../image/icon1.jpg) no-repeat left center;
+
+            font-size: 14px;
+            line-height: 42px;
+            a {
+              color: #343434;
+              font-family: Tahoma, microsoft yahei;
+              &:hover {
+                text-decoration: none;
+                color: @fontcolor;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .col-1 {
+    width: 320px;
+    height: 250px;
+    padding-left: 50px;
+    .upp {
+      width: 320px;
+      height: 50px;
+      line-height: 50px;
+      .company {
+        float: left;
+      }
+      .mores {
+        float: right;
+      }
+    }
+    .downn {
+      .uu {
+        a {
+          display: inline-block;
+          color: #343434;
+          font-family: Tahoma, "microsoft yahei";
+          font-size: 14px;
+          line-height: 22px;
+          font-weight: normal;
+          font-variant: normal;
+          text-indent: 2em;
+          width: 320px;
+          &:hover {
+            text-decoration: none;
+            color: @fontcolor;
+          }
+        }
+      }
+    }
+  }
+  .col-2 {
+    width: 257px;
+    height: 250px;
+    //padding-left: 53px;
+    margin-left: 115px;
+    padding:0 0;
+    .video {
+      line-height: 50px;
+      .vv {
+        width: 257px;
+        height: 50px;
+      }
+      vedio {
+
+      }
+    }
+  }
+
+}
+
+
+//product
+#pro {
+  margin-top: 50px;
+  background-color: #f1f2f4;
+  height: 220px;
+  .zuo {
+    float: left;
+  }
+  .you {
+    float: left;
+    width: 1024px;
+    height: 220px;
+    padding-left: 45px;
+    //line-height: 220px;
+    padding-top: 40px;
+    li {
+      float: left;
+      width: 170px;
+      height: 142px;
+      position: relative;
+      margin-right: 32px;
+
+
+        div {
+          a {
+            position: absolute;
+            width: 170px;
+            height: 30px;
+            background: rgba(0, 0, 0, 0.4);
+            background-image: url('../image/casepictit1.png');
+            bottom: 0;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            font-family: Tahoma, "microsoft yahei";
+            font-size: 12px;
+            &:hover {
+              text-decoration: none;
+              background-image: url('../image/casepictit2.png');
+            }
+          }
+
+
+        }
+
+
+    }
+    .last {
+      margin-right: 0;
+    }
+  }
+}
+
+
+
+//link
+#link {
+  height: 220px;
+  padding-top: 50px;
+  .container {
+    .link-top {
+      width: 179px;
+      height: 22px;
+
+    }
+    .link-bottom {
+      padding-top: 20px;
+      height: 50px;
+      li {
+        float: left;
+        margin-right: 22px;
+      }
+    }
+  }
+}
+
+//footer
+#footer {
+  height: 134px;
+  background-color: #202529;
+
+  .container {
+    .footer-top {
+      padding-top: 30px;
+      .box1 {
+          width: 180px;
+          height: 103px;
+          float: left;
+        text-align: center;
+        }
+      .box2 {
+        width: 180px;
+        height: 103px;
+        float: left;
+        text-align: center;
+      }
+      .box3 {
+        width: 180px;
+        height: 103px;
+        float: left;
+        text-align: center;
+      }
+      .box4 {
+        width: 180px;
+        height: 103px;
+        float: left;
+        text-align: center;
+      }
+      p {
+        padding-top: 10px;
+        color: #6a737c;
+        font-family: "microsoft yahei";
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+      }
+    }
+  }
+}
+
+#copy {
+  background-color: #0D1015;
+  .container{
+    height: 50px;
+
+    color: #6a737c;
+    font-family: Tahoma, "microsoft yahei";
+    font-size: 12px;
+    line-height: 50px;
+    text-align: right;
+  }
+
+}
+
+

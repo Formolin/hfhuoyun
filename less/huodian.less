@@ -1,0 +1,151 @@
+//slider
+#slider {
+  .item {
+    height: 290px;
+  }
+}
+
+
+.clearboth {
+  clear:both;
+}
+@fontcolor:#d53a4a;
+
+//content1
+#content1 {
+  padding-top: 50px;
+ .left {
+   width: 200px;
+   height: 569px;
+   .two {
+     li {
+       width: 200px;
+       height: 50px;
+       background-color: #ebe9ea;
+       text-align: center;
+       line-height: 50px;
+       a {
+
+         color: #6a737c;
+         font-family: "microsoft yahei";
+         font-size: 16px;
+       }
+     }
+
+     .current {
+       background-color: @fontcolor;
+       a {
+         color: white;
+       }
+     }
+
+
+     .lis {
+       border-bottom: 1px solid #ebe9ea;
+       background-color: transparent;
+
+
+
+       a {
+         color: #6a737c;
+         font-family: "microsoft yahei";
+         font-size: 14px;
+         line-height: 48px;
+         position: relative;
+         div {
+           position: absolute;
+           width: 13px;
+           height: 5px;
+           background:url("../image/fuwu/icon8.jpg") no-repeat top left;
+           top: 7px;
+           left: -18px;
+           display: none;
+         }
+         &:hover {
+           color: @fontcolor;
+            div{
+              display: block;
+            }
+       }
+       }
+     }
+
+     .last {
+       border-bottom: 1px solid white;
+       a {
+         display: block;
+         &:hover {
+           //width: 200px;
+           //height: 50px;
+             background-color: @fontcolor;
+
+
+           color: white;
+         }
+       }
+     }
+   }
+   .three {
+     padding-top: 20px;
+     img {
+       margin-bottom: 20px;
+     }
+   }
+ }
+  .right {
+    width: 950px;
+    padding-left: 50px;
+    .r-top {
+      width: 950px;
+      height: 43px;
+      border-bottom: 1px solid #8a8a8a;
+      p {
+        color: #999;
+        font-family: Tahoma, "microsoft yahei";
+        font-size: 16px;
+        line-height: 24px;
+        i {
+          margin-right: 15px;
+        }
+        a {
+          margin:0 5px;
+          color: #656565;
+
+          &:hover {
+            text-decoration: none;
+            color: @fontcolor;
+          }
+
+        }
+        .current {
+          color: @fontcolor;
+        }
+      }
+    }
+
+    .r-con {
+      h1 {
+        color: #464545;
+        font-family: "microsoft yahei";
+        font-size: 28px;
+        line-height: 24px;
+        font-weight: 600;
+        text-align: center;
+        padding:25px 0 50px 0;
+      }
+      p {
+        margin-bottom: 15px;
+        line-height: 28px;
+        font-size: 14px;
+        color: #444;
+        text-align: left;
+        text-indent: 4em;
+      }
+    }
+
+}
+}
+
+  #footer {
+    margin-top: 50px;
+  }
